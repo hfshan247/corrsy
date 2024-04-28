@@ -15,7 +15,7 @@ type Props = {
 const ProfileScreen: FunctionComponent<Props> = props => {
   return (
     <SafeAreaView>
-      <TabHeader headerText="Profile" />
+      <TabHeader headerText="Profile" viewStyle={GlobalStyles.fullCenter} />
       <View>
         <PNGIMAGE
           imageURl={studentAvatarImage}

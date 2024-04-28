@@ -1,7 +1,7 @@
 import {useSelector, TypedUseSelectorHook} from 'react-redux';
 
 export interface RootState {
-  routing: UserState;
+  routing: SubjectState;
 }
 
 export const useTypedSelector: TypedUseSelectorHook<RootState> = useSelector;

@@ -11,14 +11,15 @@ type Props = {
   imageViewStyle?: any;
   overRideImageStyle?: any;
   resizeMode?: any;
+  fromApi?: boolean;
 };
 
 const PNGIMAGE: FunctionComponent<Props> = props => {
-  const {imageURl, imageStyle, resizeMode, imageViewStyle} = props;
+  const {imageURl, fromApi, imageStyle, resizeMode, imageViewStyle} = props;
   return (
     <View style={[GlobalStyles.borderRadius50, imageViewStyle]}>
       <Image
-        source={imageURl}
+        source={fromApi ? {uri: imageURl} : imageURl}
         style={[GlobalStyles.borderRadius50, imageStyle]}
         resizeMode={resizeMode}
       />

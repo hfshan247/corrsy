@@ -1,55 +1,42 @@
-type PersonData = {
-  fullName: string;
-  wingImage: any;
-  profilePic: any;
-  accuiredImage: any;
-  percantage: number;
-  activeStorkeColor: any;
-  diamondShap: any;
+type SubjectData = {
+  subjectId: string;
+  subjectName: string;
+  subjectIcon: string;
+  gradeId: string;
+  isAppInstall: boolean;
 };
 
-type PersonState = {
-  persons: PersonData[];
+type SubjectState = {
+  subjects: SubjectData[];
 };
 
-type AuthObject = {
-  authObjectEmail: string;
-  authObjectid: string;
-  authObjectToken: string;
-  loginPrompt: any;
+type ChapterData = {
+  subjectId: string;
+  chapterId: string;
+  chapterName: string;
+  chapterIcon: string;
+  chapterNumber: number;
+  lessons: [
+    {
+      lessonID: string;
+      lessonTitle: string;
+      lessonIcon: string;
+      lessonShortDescription: string;
+      lessonLongDescription: string;
+      lessonRealLifeScnerio: string;
+      lessonActiveState: number;
+    },
+  ];
 };
 
-type AuthState = {
-  authUserObject: AuthObject;
+type ChapterState = {
+  chapteData: ChapterData;
 };
 
-type AuthAction = {
+type ChapterAction = {
   type: string;
-  authUserObject: AuthObject;
+  chapterData: ChapterData;
 };
 
-type UserObject = {
-  name: string;
-  userName: string;
-  proifleAvatar: any;
-};
-
-type UserState = {
-  authUser: UserObject;
-};
-
-type UserAction = {
-  type: string;
-  authUser: UserObject;
-};
-
-type DispatchType = (args: UserAction) => UserAction;
-type Users = Array<UserObject>;
-
-// type PersonAciton = {
-//   type: string;
-//   person: PersonData;
-// };
-
-// type DispatchType = (args: PersonAction) => PersonAction;
-// type Persons = Array<PersonData>;
+type DispatchType = (args: ChapterAction) => ChapterAction;
+type Users = Array<ChapterData>;

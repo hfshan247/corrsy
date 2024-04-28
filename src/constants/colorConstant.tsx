@@ -1,5 +1,5 @@
 export const minskColor = '#37358d';
-export const mischkaColor = '#37358d';
+export const mischkaColor = '#d7d7e8';
 export const appBackgroundColor = '#fafafa';
 export const whiteColor = '#ffffff';
 export const schoolBusYellowColor = '#fbd704';
@@ -17,3 +17,4 @@ export const burntSiennaColor = '#eb5757';
 export const tutaraColor = '#3d3d3c';
 export const blackColor = '#000000';
 export const transparentColor = 'transparent';
+export const loganColor = '#b0aed0';

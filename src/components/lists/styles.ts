@@ -23,18 +23,12 @@ export const styles = StyleSheet.create({
   },
 });
 
-export const commonHeaderStyle = {
+export const commonListStyles = {
   textHeaderMainView: [
     GlobalStyles.row,
     GlobalStyles.marginBottom24,
     GlobalStyles.minskColorBackground,
     styles.textHeaderMainView,
-  ],
-  stackHeaderMainView: [
-    GlobalStyles.row,
-    GlobalStyles.marginBottom24,
-    {columnGap: 15},
-    // styles.textHeaderMainView,
   ],
   textHeaderText: [GlobalStyles.centerText, GlobalStyles.whiteText22],
   imageStyle: [

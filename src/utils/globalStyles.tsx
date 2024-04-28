@@ -1,5 +1,11 @@
 import {StyleSheet} from 'react-native';
-import {blackColor, minskColor, whiteColor} from '../constants/colorConstant';
+import {
+  abbeyColor,
+  blackColor,
+  minskColor,
+  mischkaColor,
+  whiteColor,
+} from '../constants/colorConstant';
 
 export const GlobalStyles = StyleSheet.create({
   /**
@@ -10,6 +16,9 @@ export const GlobalStyles = StyleSheet.create({
   },
   whiteBackground: {
     backgroundColor: whiteColor,
+  },
+  mischkaBackground: {
+    backgroundColor: mischkaColor,
   },
   /**
    * Text
@@ -40,6 +49,14 @@ export const GlobalStyles = StyleSheet.create({
   whiteText22: {
     fontSize: 22,
     color: whiteColor,
+  },
+  whiteText16: {
+    fontSize: 16,
+    color: whiteColor,
+  },
+  abbeyText18: {
+    fontSize: 18,
+    color: abbeyColor,
   },
   blackText18: {
     fontSize: 18,
@@ -284,5 +301,8 @@ export const GlobalStyles = StyleSheet.create({
   },
   borderRadius50: {
     borderRadius: 50,
+  },
+  borderRadius0: {
+    borderRadius: 0,
   },
 });
