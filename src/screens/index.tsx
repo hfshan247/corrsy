@@ -1,2 +1,4 @@
 import {SplashScreen} from './mainScreens';
-export {SplashScreen};
+import {HomeScreen, ProfileScreen, ShopScreen} from './tabScreens';
+
+export {SplashScreen, HomeScreen, ProfileScreen, ShopScreen};
