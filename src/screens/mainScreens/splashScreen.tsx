@@ -19,9 +19,9 @@ const SplashScreen: FunctionComponent<Props> = props => {
       if (Object.values(fetchSubject)[2]) {
         navigation.replace('tabs');
       } else {
-        // chaptersApi();
-        // lessonsApi();
-        // subjectsApi();
+        chaptersApi();
+        lessonsApi();
+        subjectsApi();
       }
     }, 2000);
   }, [navigation]);
