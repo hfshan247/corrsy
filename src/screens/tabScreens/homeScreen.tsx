@@ -1,5 +1,4 @@
 import React, {FunctionComponent} from 'react';
-
 type Props = {
   navigation: any;
 };
