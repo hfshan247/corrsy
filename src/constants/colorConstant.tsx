@@ -15,3 +15,5 @@ export const regentGrayColor = '#8d9a9e';
 export const sushiColor = '#8d9a9e';
 export const burntSiennaColor = '#eb5757';
 export const tutaraColor = '#3d3d3c';
+export const blackColor = '#000000';
+export const transparentColor = 'transparent';

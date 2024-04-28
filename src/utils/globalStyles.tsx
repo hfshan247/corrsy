@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {minskColor, whiteColor} from '../constants/colorConstant';
+import {blackColor, minskColor, whiteColor} from '../constants/colorConstant';
 
 export const GlobalStyles = StyleSheet.create({
   /**
@@ -40,6 +40,10 @@ export const GlobalStyles = StyleSheet.create({
   whiteText22: {
     fontSize: 22,
     color: whiteColor,
+  },
+  blackText18: {
+    fontSize: 18,
+    color: blackColor,
   },
   /**
    * View
