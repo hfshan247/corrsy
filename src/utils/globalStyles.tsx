@@ -1,10 +1,16 @@
 import {StyleSheet} from 'react-native';
+import {minskColor, whiteColor} from '../constants/colorConstant';
 
 export const GlobalStyles = StyleSheet.create({
   /**
    * Background Color
    */
-
+  minskColorBackground: {
+    backgroundColor: minskColor,
+  },
+  whiteBackground: {
+    backgroundColor: whiteColor,
+  },
   /**
    * Text
    */
@@ -30,6 +36,10 @@ export const GlobalStyles = StyleSheet.create({
   },
   centerText: {
     textAlign: 'center',
+  },
+  whiteText22: {
+    fontSize: 22,
+    color: whiteColor,
   },
   /**
    * View
