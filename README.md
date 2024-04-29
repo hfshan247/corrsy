@@ -55,25 +55,80 @@ Now that you have successfully run the app, let's modify it.
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Congratulations! :tada:
+# Screenshot
 
-You've successfully run and modified your React Native App. :partying_face:
+![Alt text](/screenshot.png?raw=true "Optional Title")
 
-### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+# Demo
 
-# Troubleshooting
+To preview the demo please click on the following video thumbnail
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/oNS1HGKkHDg/0.jpg)](https://www.youtube.com/watch?v=oNS1HGKkHDg)
 
-# Learn More
 
-To learn more about React Native, take a look at the following resources:
+# Next Steps
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+In order to improve the user experience and for the success of the product I would consider doing the following:
+
+1. **User Feedback Analysis:**  
+   Gather feedback from student about the instructor through app reviews, surveys, and analytics tools. Analyze this feedback to identify areas for improvement.
+
+1. **Performance Optimization:**  
+   Ensure that your app runs smoothly and quickly by optimizing its performance. This includes minimizing loading times, reducing battery consumption, and optimizing memory usage.
+
+1. **User Interface (UI) and User Experience (UX) Design:**  
+   Improve the design of your app to make it more intuitive, visually appealing, and user-friendly. Consider factors such as layout, navigation, color scheme, typography, and iconography.
+
+1. **Feature Updates:**  
+   Continuously add new features and functionalities to keep your app relevant and engaging for users. Prioritize features based on user feedback and market trends.
+
+1. **Bug Fixes:**  
+   Regularly address any bugs or technical issues reported by users to ensure a smooth and error-free experience.
+
+1. **Personalization:**  
+   Implement personalization features to tailor the app experience to individual user preferences and behavior. This could include personalized recommendations, content, and notifications.
+
+1. **Integration with Third-Party Services:**  
+   Integrate your app with popular third-party services and APIs to provide additional value to users. For example, you could integrate social media sharing, payment gateways, or location-based services.
+
+1. **Security Enhancements:**  
+   Strengthen the security of your app to protect user data and prevent unauthorized access. Implement best practices for data encryption, secure authentication, and protection against common security threats.
+
+1. **Accessibility Improvements:**  
+   Make your app accessible to users with disabilities by incorporating accessibility features such as voice commands, screen readers, and adjustable font sizes.
+
+1. **Localization:**   
+   Expand the reach of your app by localizing it for different languages and regions. This involves translating the app content and adapting it to cultural preferences and norms.
+
+1. **Performance Monitoring and Analytics:**  
+   Use analytics tools to monitor the performance of your app and track key metrics such as user engagement, retention, and conversion rates. Use this data to make data-driven decisions and prioritize future enhancements.
+
+1. **Continuous Testing and Iteration:**
+   Continuously test new features and updates to identify any issues or areas for improvement. Iterate based on user feedback and testing results to refine the app over time.
+
+
+# Final thoughts
+ During this short period of time I tried to complete as much features as I could. For further improviements code quality could have been improved and also more bugs could be fixed. There were some challenges related to fetching api data from backend and using it inside the application since it was not formatted in the most optimized way. I tried to split 
+
+
+# Project Management
+I kikked off this project by creating a jira kanban board in order to split tasts in smaller tasks and to simulate it like a real worl application where we collaborate with team.
+
+![Alt text](/corrsy-jira-board.png?raw=true "Optional Title")
+
+
+# Version Control System
+I also created a git repository and maintained it via My favorite search engine is [github](https://github.com/ "github"). I created multiple branches and pull requests and merged them to the main branch. 
+
+# Libraries and References
+
+To complete this assesment, I took help from the following resources:
+
+- [React Native Vector Icons](https://www.npmjs.com/package/react-native-vector-icons) - for bottom tab icons/other app icons
+- [Bottom Tabs Navigator](https://reactnavigation.org/docs/bottom-tab-navigator) - for tab navigation.
+- [react-native-dotenv](https://www.npmjs.com/package/react-native-dotenv) - for environment variables.
+- [AXIOS](https://www.npmjs.com/package/axios) - to fetch data from server.
+- [Redux](https://redux.js.org/) - for state management.
+- [Circular Progress Bar](https://www.npmjs.com/package/react-native-circular-progress) - description.
+- [React Navigation](https://reactnavigation.org/docs/getting-started/) - to navigate between screens.
